@@ -1,0 +1,43 @@
+main{
+    width: 78%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+main img{
+    height: 400px;
+    width:80%;
+}
+.global{
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    margin: 0 auto;
+    align-items: center;
+    height: 40px;
+}
+.icons{
+    display: flex;
+}
+.icons p{
+    font-size: 13px;
+}
+@media (max-width:800px){
+    main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.p{
+    display: none;
+}
+.p1{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p3{
+    display: none;
+}

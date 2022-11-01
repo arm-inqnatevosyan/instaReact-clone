@@ -1,0 +1,42 @@
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin:  0 auto;
+}
+.comment ul{
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+}
+.comment li{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.comment .add-post{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.comment .add-post input{
+    width: 200px;
+    height: 35px;
+    font-family: sans-serif;
+    outline: none;
+    background-color: rgb(62, 85, 216);
+    border: none;
+    color: black;
+    padding-left: 10px;
+}
+.comment .add-post button{
+    width: 150px;
+    height: 35px;
+    font-family: sans-serif;
+    outline: none;
+    background-color: rgb(62, 85, 216);
+    border: none;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}

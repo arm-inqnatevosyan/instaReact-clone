@@ -1,0 +1,26 @@
+.story{
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.story img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50%;
+}
+.story p{
+    font-size: 13px;
+}
+#one-block{
+    position: relative;
+}
+#add{
+    position: absolute;
+    bottom: 20%;
+    color: rgb(52, 157, 228);
+    right: -10%;
+    font-size: 20px;
+}
